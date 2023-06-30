@@ -24,13 +24,16 @@ Composer (PHP package manager)
 Follow these steps to install and set up the E-commerce API:
 
 Clone the project repository from GitHub:
+
 *git clone https://github.com/your-username/e-commerce-api.git
 *cd e-commerce-api
 
 Install project dependencies using Composer:
+
 *composer install
 
 Create a copy of the .env.example file and name it .env:
+
 *cp .env.example .env
 
 Generate an application key:
