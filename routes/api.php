@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ReviewController;
 use Illuminate\Support\Facades\Route;
 
 // Products
@@ -11,7 +12,6 @@ Route::put('/products/{product}', [ProductController::class, 'update']);
 Route::delete('/products/{product}', [ProductController::class, 'destroy']);
 
 
-use App\Http\Controllers\API\ReviewController;
 
 Route::prefix('products')->group(function () {
     Route::get('{productId}/reviews', [ReviewController::class, 'getProductReviews']);
