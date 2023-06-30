@@ -26,7 +26,7 @@ Follow these steps to install and set up the E-commerce API:
 Clone the project repository from GitHub:
 
 * git clone https://github.com/pratikranaa/ecom_api_laravel.git
-* cd e-commerce-api
+* cd ecom_api_laravel
 
 Install project dependencies using Composer:
 
