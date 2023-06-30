@@ -28,10 +28,6 @@ Clone the project repository from GitHub:
 * git clone https://github.com/pratikranaa/ecom_api_laravel.git
 * cd ecom_api_laravel
 
-Install project dependencies using Composer:
-
-* composer install
-
 Create a copy of the .env.example file and name it .env:
 
 * cp .env.example .env
@@ -53,8 +49,6 @@ Run the database migrations to create the required tables:
 
 Start the development server:
 * php artisan serve
-
-The E-commerce API is now accessible using the base URL http://localhost:8000/api.
 
 ### Configuration
 The configuration for the E-commerce API is stored in the .env file located at the project root. This file contains environment-specific settings such as database connection details and application key.
