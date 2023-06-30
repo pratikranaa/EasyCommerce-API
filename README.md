@@ -25,19 +25,19 @@ Follow these steps to install and set up the E-commerce API:
 
 Clone the project repository from GitHub:
 
-*git clone https://github.com/your-username/e-commerce-api.git
-*cd e-commerce-api
+* git clone https://github.com/your-username/e-commerce-api.git
+* cd e-commerce-api
 
 Install project dependencies using Composer:
 
-*composer install
+* composer install
 
 Create a copy of the .env.example file and name it .env:
 
-*cp .env.example .env
+* cp .env.example .env
 
 Generate an application key:
-*php artisan key:generate
+* php artisan key:generate
 
 Configure the database connection in the .env file. Provide the necessary credentials for your MySQL database:
 
@@ -49,10 +49,10 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 
 Run the database migrations to create the required tables:
-*php artisan migrate
+* php artisan migrate
 
 Start the development server:
-*php artisan serve
+* php artisan serve
 
 The E-commerce API is now accessible using the base URL http://localhost:8000/api.
 
@@ -61,7 +61,7 @@ The configuration for the E-commerce API is stored in the .env file located at t
 
 You can modify the .env file to customize the configuration according to your requirements.
 
-###User Authentication
+### User Authentication
 The E-commerce API uses Laravel Jetstream and Livewire for user authentication. The following endpoints are available for user authentication:
 
 POST /register: Creates a new user account.
@@ -77,7 +77,8 @@ POST /api/products: Creates a new product.
 PUT /api/products/{id}: Updates details of a specific product.
 DELETE /api/products/{id}: Deletes a specific product.
 
-###Review APIs
+### Review APIs
+
 The E-commerce API allows users to review products. The following endpoints are available for managing reviews:
 
 GET /api/products/{id}/reviews: Retrieves reviews for a specific product.
