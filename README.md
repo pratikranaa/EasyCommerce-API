@@ -25,7 +25,7 @@ Follow these steps to install and set up the E-commerce API:
 
 Clone the project repository from GitHub:
 
-* git clone https://github.com/pratikranaa/ecom_api_laravel.git
+* git clone [https://github.com/pratikranaa/ecom_api_laravel.git](https://github.com/pratikranaa/EasyCommerce-API.git)
 * cd ecom_api_laravel
 
 Create a copy of the .env.example file and name it .env:
